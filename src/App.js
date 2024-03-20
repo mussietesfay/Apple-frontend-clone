@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./Componenets/Header/Header";
+import Footer from "./Componenets/Footer/Footer";
+import Section1 from "./Componenets/Section1/Section1";
+import Secondsec from "./Componenets/Secondsec/Secondsec";
+import Sectionthree from "./Componenets/sectionthree/Sectionthree";
+import Fourthsec from "./Componenets/Fourthsec/Fourthsec";
+import Fifthsec from "./Componenets/Fifthsec/Fifthsec";
+import Sixthsec from "./Componenets/Sixthsec/Sixthsec";
+// import Youtubejan from "./Componenets/Youtube/Youtubejan";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Section1/>
+      <Secondsec/>
+       <Sectionthree/>
+       <Fourthsec/>
+       <Fifthsec/>
+       <Sixthsec/>
+       {/* <Youtubejan/> */}
+      <Footer/>
+      
     </div>
   );
 }
